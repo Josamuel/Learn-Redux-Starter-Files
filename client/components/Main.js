@@ -9,7 +9,7 @@ class Main extends React.Component{
     return (
       <div>
         <h1>
-        <Link to="/"> SUXstagram lol</Link>
+        <Link to="/"> Reduxstagram!!</Link>
         </h1>
       {/* props will be undefined until we pass in children*/}
         {React.cloneElement(this.props.children, this.props)}
